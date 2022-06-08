@@ -9,48 +9,64 @@
       body {
         background-color:rgb(246, 244, 248);
         text-align: center;
+        }
+      #minhafoto{
+        width:250px;
+        height:250px;
+        border-radius: 50% 10% 25% 5% ;
+
+      }  
+      h1 {font-family:Verdana, Geneva, Tahoma, sans-serif;color: #0a7e51;
       }
-      hi {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      h2{font-style: italic;
+
       }
       p {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
       </style>
-    <h1>"Olá Meu Nome e Weydson Cristiano"</h1>
-    <h2><em>Sou Estudante Full Stack na Trybe!</em></h2>
-    <h3><em>Aqui e onde começa a minha grande Jornada !!!</em></h3>
+    <h1>Olá Meu Nome e Weydson Cristiano</h1>
+    <h2>Sou Estudante Full Stack na Trybe!</h2>
+    <h3>Aqui e onde começa a minha grande Jornada !!!</h3>
     <p>Está pagina será atualizada ao longo do meu curso de formaçao de
       <strong>Desenvolvedo de Web Full Stack !!!</strong> <br><br> <em> Nos links
-        <a href="https://www.linkedin.com/in/weydson-cristiano-5428a1235/"target=_blank>Linkedin</a> um pouco sobre min, e 
-        <a href=https://github.com/WeydsonCristiano" target=_blank>Github</a> meus primeiros projetos realizados.</em>
+        <a class="linkSocial" href="https://www.linkedin.com/in/weydson-cristiano-5428a1235/"target=_blank>Linkedin</a> um pouco sobre min, e 
+        <a class="linkSocial" href="https://github.com/WeydsonCristiano" target=_blank>Github</a> meus primeiros projetos realizados.</em>
       </p>
     </head>
-    <img
-    src="https://imagizer.imageshack.com/img923/6199/crSL5j.png"
-    width="500px"
-    heigth="500
-    px"
+    <img id="minhafoto" src="https://imagizer.imageshack.com/img923/6199/crSL5j.png"
+  
     alt="Minha foto"
     />
     
     <style>
-      <br>
+      .linkSocial,.cris{
+        cursor:pointer;
+        text-decoration:none;
+      }
+    .lista{
+      margin: auto;
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+      align-content: center;
+    }
+
       .bloco {
-        width: 350px;
-        border: 1px solid black;
-        margin: auto;
+        /* width: 100px; */
+  
+        /* margin: auto; */
       }
-      .cris {
-        cursor: pointer;
-      }
-      
+ 
+
       .letra {
-        font-size: 50px;
+        font-size: 18px;
       }
       .L {
         color: blue;
-        font-size: 50px;
+      }
+      .Trybe {
+        color: #0a7e51
       }
     .i {
       color: red;
@@ -76,7 +92,6 @@
     }
     .G {
       color: blue;
-      font-size: 50px;
     }
     .i {
       color: red;
@@ -137,7 +152,8 @@
     <br>
     <br>
     <strong>Minhas caracteristas são:
-    <ul>
+    <div class="lista">
+      <ul>
     <li>Empatia</li>
     <li>Competividade</li>
     <li>Iniciativa</li>
@@ -145,6 +161,8 @@
     <li>Perfeccionismo</li>
     <li>Perseverança</li>
     </ul>
+
+    </div>
   </strong> 
   
 
