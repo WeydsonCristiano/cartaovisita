@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(199, 235, 213);
+  background-color: rgb(208, 245, 222);
   text-align: center;
 }
 #minhafoto {
@@ -8,10 +8,7 @@ body {
   border-radius: 30% 15% 25% 15%;
   padding: 30px;
 }
-h1,
-h2,
-p,
-h4 {
+h1,p,h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #0a7e51;
 }
@@ -29,7 +26,7 @@ h4 {
 }
 
 .letra {
-  font-size: 50px;
+  font-size: 40px;
 }
 .L {
   color: blue;
