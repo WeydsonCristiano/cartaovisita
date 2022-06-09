@@ -10,18 +10,18 @@ body {
 }
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #104cf3;
+  color: #11a36a;
 }
 p,
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #39ff14;
+  color: #00bfff;
 }
 .linkSocial {
   text-decoration: none;
   font-size: 30px;
   border: 2px;
-  color: #104cf3;
+  color: #a715eb;
 }
 .cris {
   cursor: pointer;
@@ -31,7 +31,7 @@ h2 {
   flex-direction: column;
   font-size: 40px;
   display: inline-block;
-  color: #39ff14;
+  color: #a715eb;
 }
 
 .letra {
