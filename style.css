@@ -1,19 +1,28 @@
 body {
-  background-color: rgb(208, 245, 222);
+  background-image: url("https://i.pinimg.com/564x/e1/c4/3b/e1c43b5380abfee4023af74f3cb87bde.jpg");
   text-align: center;
 }
 #minhafoto {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 30% 15% 25% 15%;
   padding: 30px;
+ 
 }
-h1,p,h2 {
+h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #0a7e51;
+  color:#104cf3
+  
+}
+p,h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #39ff14;
 }
 .linkSocial {
   text-decoration: none;
+  font-size: 30px;
+  border: 2px;
+  color:#104cf3;
 }
 .cris {
   cursor: pointer;
@@ -22,24 +31,25 @@ h1,p,h2 {
 .lista {
   flex-direction: column;
   display: inline-block;
-  color: #0a7e51;
+  color: #39ff14;
 }
 
 .letra {
-  font-size: 40px;
+ 
+  font-size: 60px;
 }
 .L {
-  color: blue;
+  color: #104cf3;
 }
 
 .i {
   color: red;
 }
-.n {
+.n1 {
   color: orange;
 }
 .K {
-  color: blue;
+  color: #104cf3;
 }
 .e {
   color: green;
@@ -49,13 +59,13 @@ h1,p,h2 {
 }
 
 .I {
-  color: blue;
+  color: #104cf3;
 }
-.n {
+.n2 {
   color: red;
 }
 .G {
-  color: blue;
+  color: #104cf3;
 }
 .i {
   color: red;
@@ -64,7 +74,7 @@ h1,p,h2 {
   color: orange;
 }
 .H {
-  color: blue;
+  color: #104cf3;
 }
 .u {
   color: green;
