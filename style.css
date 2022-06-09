@@ -10,12 +10,14 @@ body {
 }
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #11a36a;
+  color: #a9ddee;
+  font-size: 40px;
 }
 p,
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #00bfff;
+  color: #a9ddee;
+  font: size 20px;
 }
 .linkSocial {
   text-decoration: none;
@@ -31,7 +33,7 @@ h2 {
   flex-direction: column;
   font-size: 40px;
   display: inline-block;
-  color: #a715eb;
+  color: #a9ddee;
 }
 
 .letra {
