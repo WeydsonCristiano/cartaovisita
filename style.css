@@ -8,6 +8,7 @@ body {
   height: 400px;
   border-radius: 30% 15% 25% 15%;
   padding: 30px;
+  background-size: auto;
 }
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -25,9 +26,18 @@ h2 {
   font-size: 30px;
   color: #a715eb;
 }
+.linkSocial :hover {
+background-color: aqua;
+}
+.cris :hover{
+  background-color: aqua;
+}
+
 .cris {
   cursor: pointer;
   text-decoration: none;
+  margin-top: auto;
+  width: 20px;
 }
 .lista {
   flex-direction: column;
