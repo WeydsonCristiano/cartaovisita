@@ -9,15 +9,14 @@ body {
   height: 400px;
   border-radius: 30% 15% 25% 15%;
   background-size: auto;
-  box-shadow: 0px 5px 5px rgb(214, 113, 240);
+  box-shadow: 0px 5px 8px rgb(161, 24, 173);
 }
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #a9ddee;
   font-size: 40px;
-  text-shadow: 0px 5px 5px rgb(214, 113, 240);
-  
+  text-shadow:0px 5px 5px rgb(161, 24, 173);
 }
 
 p,
@@ -32,18 +31,9 @@ h2 {
   width: 400px;
   margin: 20px auto;
 }
-
-.social:hover {
-  background-color: aqua;
-
-}
-
-
-
 .linkSocial {
   text-decoration: none;
-  text-shadow: 0px 1px 1px rgb(214, 113, 240);
- 
+  text-shadow:0px 1px 1px #a9ddee;
 }
 
 
@@ -53,63 +43,5 @@ h2 {
   font-size: 30px;
   display: inline-block;
   color: #a9ddee;
-  text-shadow: 0px 1px 1px rgb(214, 113, 240);
-}
-
-
-
-.L {
-  color: #104cf3;
-}
-
-.i {
-  color: red;
-}
-
-.n1 {
-  color: orange;
-}
-
-.K {
-  color: #104cf3;
-}
-
-.e {
-  color: green;
-}
-
-.d {
-  color: red;
-}
-
-.I {
-  color: #104cf3;
-}
-
-.n2 {
-  color: red;
-}
-
-.G {
-  color: #104cf3;
-}
-
-.i {
-  color: red;
-}
-
-.t {
-  color: orange;
-}
-
-.H {
-  color: #104cf3;
-}
-
-.u {
-  color: green;
-}
-
-.b {
-  color: red;
+  text-shadow:0px 5px 5px rgb(161, 24, 173);
 }
