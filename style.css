@@ -5,8 +5,8 @@ body {
   overflow: auto;
 }
 #minhafoto {
-  width: 400px;
-  height: 400px;
+  width: 20%;
+  height: 20%;
   border-radius: 30% 15% 25% 15%;
   background-size: auto;
   box-shadow: 0px 10px 15px #5d4996;
@@ -25,7 +25,7 @@ h2 {
 }
 .social {
   font-size: 50px;
-  width: 400px;
+  width: 300px;
   margin: 20px auto;
 }
 .linkSocial {
